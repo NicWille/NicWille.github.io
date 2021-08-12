@@ -10,5 +10,18 @@ body {
 
 header {
     background-color: #333;
+    /* background-color: tomato; */
+
+}
+
+header h1 {
+    padding: 30px 0;
+    text-align: center;
+}
+
+section h2, li {
+    color: #333;
+    text-align: center;
+    /* color: tomato; */
 }
 
