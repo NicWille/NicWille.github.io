@@ -100,3 +100,27 @@ header ul li {
     text-align: justify;
 }
 
+.about-me ul {
+    list-style: none;
+    margin: 0 auto;
+
+}
+
+.about-me li {
+    /* width: auto;
+    margin: 0 auto; */
+
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+li img {
+    width: 100%;
+    margin: 0 auto;
+}
+
