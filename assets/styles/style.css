@@ -89,3 +89,14 @@ header ul li {
     max-width: 80vw;
     border-radius: 20px;
 }
+
+.about-me h2 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.about-me p {
+    text-align: justify;
+}
+
