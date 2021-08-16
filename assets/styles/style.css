@@ -5,6 +5,7 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    color: white;
 }
 
 body {
@@ -20,11 +21,11 @@ body {
 /* Header  */
 
 header {
+    width: 100vw;
     justify-content: space-between;
     padding: 1rem;
     background-color: royalblue;
     border-bottom: 2em solid white;
-    color: white;
 }
 
 header h1 {
@@ -51,7 +52,10 @@ header ul li {
 #hero {
     margin-top: 2em;
     justify-content: space-evenly;
-    color: white;
+}
+
+#hero img {
+    border-radius: 20px;
 }
 
 #hero div {
@@ -73,4 +77,15 @@ header ul li {
 
 #hero div ul li {
     padding: 1em 2em;
+}
+
+/* About me section  */
+
+.about-me {
+    border: 2em solid white;
+    margin: 3% auto;
+    padding: 2em;
+    background-color: royalblue;
+    max-width: 80vw;
+    border-radius: 20px;
 }
