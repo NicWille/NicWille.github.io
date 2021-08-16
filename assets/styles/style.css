@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 /* Header  */
@@ -11,8 +12,10 @@
 header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    margin: 2em 1em;
+    padding: 1rem;
+    background-color: royalblue;
 }
 
 header h1 {
@@ -21,11 +24,41 @@ header h1 {
 
 header ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
 }
 
 header ul li {
-    margin-right: 10px;
+    margin-right: 3em;
 }
 
 /* Hero  */
+
+#hero {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hero div {
+    margin-top: 3%;
+}
+
+#hero div h2 {
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+
+#hero div ul {
+    font-size: 2em;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#hero div ul li {
+    padding: 1em 2em;
+}
